@@ -150,7 +150,7 @@ function parse(val) {
   // Test if the string passed is valid
   var results = parseRegExp.exec(val);
   var floatValue;
-  var unit = 'b';
+  var unit;
 
   if (!results) {
     // Nothing could be extracted from the given string
